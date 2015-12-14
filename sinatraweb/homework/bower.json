@@ -1,0 +1,22 @@
+{
+  "name": "Homework",
+  "homepage": "https://github.com/pablobfonseca/rubyoffrails",
+  "authors": [
+    "Pablo Fonseca <pablofonseca777@gmail.com>"
+  ],
+  "description": "A simple sinatra application",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
