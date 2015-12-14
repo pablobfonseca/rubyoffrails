@@ -3,6 +3,8 @@ require 'bundler/setup'
 require 'sinatra'
 require 'shotgun'
 
-get '/about' do
+get '/' do
+  things = %w(programming music games football basketball)
+  @random_word = things.sample
   erb :about
 end
