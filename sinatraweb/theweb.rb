@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'sinatra'
-require 'sinatra/reloader'
+require 'shotgun'
 enable :sessions
 
 get '/' do
