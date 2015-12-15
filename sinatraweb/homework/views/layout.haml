@@ -1,0 +1,17 @@
+!!! 5
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "UTF-8"}
+    %title
+    %link{ :rel => "stylesheet", :href => "/bower_components/bootstrap/dist/css/bootstrap.min.css" }/
+    %link{ :rel => "stylesheet", :href => "/css/style.css" }/
+  %body
+  %nav.navbar.navbar-inverse.navbar-fixed-top
+    .navbar-inner
+      .container
+        .navbar-header
+          %a.navbar-brand{ :href => "/" } Sinatra Application
+
+  .container
+    = yield
+

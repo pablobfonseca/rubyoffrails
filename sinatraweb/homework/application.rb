@@ -2,6 +2,7 @@ require 'rubygems'
 require 'bundler/setup'
 require 'sinatra'
 require 'shotgun'
+require 'haml'
 
 enable :sessions
 
@@ -12,5 +13,5 @@ get '/' do
     { title: "Cats", content: "I have two cats, Mike and Jack" },
     { title: "Speak english", content: "If I could forget my native language and just speak english, It'll be cool!" }
   ]
-  erb :about
+  haml :about
 end

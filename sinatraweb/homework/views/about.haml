@@ -1,0 +1,8 @@
+%h1 About me
+%p I'm a web developer passionate for learning and write code, I've been trying to improve my skills everyday and share the knowledge with as many people as I can.
+
+.row
+  - @about_me.shuffle[1..3].each do |about|
+    .col-md-4
+      %h2= about.fetch(:title)
+      %p= about.fetch(:content)
